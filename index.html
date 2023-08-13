@@ -142,7 +142,12 @@
                 <br>
                 <textarea name="message" id="message" cols="43" rows="10" placeholder="Type your message here!" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-left: 600px; max-width: 290px; max-height: 150px;"></textarea>
                 <br>
-                <button type="submit" id="button" style="cursor: pointer;">submit</button>
+                <button onclick="resNotify()" type="submit" id="button" style="cursor: pointer;">submit</button>
+                 <script>
+                    function resNotify() {
+                        alert("Your data has submitted!")
+                    }
+                </script>
                 <button type="reset" style="margin-left: 727px; cursor: pointer;">Reset</button>
             </div>
 
