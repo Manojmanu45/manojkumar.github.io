@@ -9,3 +9,7 @@ console.log(document.getElementById("contactme"))
 console.log(document.getElementsByClassName("form-group"))
 console.log(document.getElementById("message"))
 console.log(document.getElementsByClassName("backtotop"))
+
+function resNotify() {
+    alert("Your request has submitted!")
+}
