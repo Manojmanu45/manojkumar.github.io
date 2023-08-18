@@ -10,7 +10,7 @@ body {
 .topnav {
     overflow: hidden;
     background-color: hsla(0, 0%, 60%, 0.3);
-    
+    transition: all 0.3s ease;  
 }
 
 .topnav a {
